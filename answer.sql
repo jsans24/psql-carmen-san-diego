@@ -27,3 +27,7 @@ SELECT capital FROM country WHERE name = 'Brazil';
 ----- Clue 7 -----
 SELECT * FROM city WHERE id = 211;
 
+----- Clue 8 -----
+SELECT * FROM city WHERE population = 91084;
+
+----- She is heading to Santa Monica, CA
