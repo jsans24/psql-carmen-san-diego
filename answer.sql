@@ -8,3 +8,10 @@ WHERE population = (
 ----- Clue 2 -----
 SELECT language FROM countrylanguage WHERE countrycode = 'VAT';
 
+----- Clue 3 -----
+SELECT * FROM country c 
+INNER JOIN countrylanguage cl 
+    ON c.code = cl.countrycode 
+WHERE c.region = 'Southern Europe' 
+AND cl.language = 'Italian';
+
