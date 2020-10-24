@@ -21,3 +21,9 @@ SELECT * FROM city WHERE countrycode = 'SMR';
 ----- Clue 5 -----
 SELECT * FROM country c INNER JOIN city ct ON ct.countrycode = c.code WHERE ct.name LIKE 'Serra%';
 
+----- Clue 6 -----
+SELECT capital FROM country WHERE name = 'Brazil';
+
+----- Clue 7 -----
+SELECT * FROM city WHERE id = 211;
+
