@@ -15,3 +15,6 @@ INNER JOIN countrylanguage cl
 WHERE c.region = 'Southern Europe' 
 AND cl.language = 'Italian';
 
+----- Clue 4 -----
+SELECT * FROM city WHERE countrycode = 'SMR';
+
